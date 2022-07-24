@@ -29,7 +29,7 @@ gsap.utils.toArray("section").forEach((section: any, i) => {
   // Do the parallax effect on each section
   gsap.to(section.bg, {
     backgroundPosition: `50% ${innerHeight / 2}px`,
-    ease: "none", // Don't apply any easing function.
+    ease: "none", 
     scrollTrigger: {
       // Trigger the animation as soon as the section comes into view
       trigger: section,
