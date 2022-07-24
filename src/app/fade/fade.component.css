@@ -1,0 +1,8 @@
+section {
+  position: fixed;
+}
+section:not(.first) {
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.8);
+}
